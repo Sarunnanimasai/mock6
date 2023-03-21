@@ -1,7 +1,7 @@
 let id = JSON.parse(localStorage.getItem("recipeId"));
 let Div = document.getElementById("Div");
 const fetchRec = async () => {
-  const data = await fetch(`http://localhost:3000/recipes/${id}`)
+  const data = await fetch(`https://funny-lime-gopher.cyclic.app/recipes/${id}`)
     .then((res) => res.json())
     .then((data) => {
       return data;

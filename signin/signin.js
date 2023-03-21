@@ -4,7 +4,7 @@ async function login() {
   if (loginEmail == "" || loginPassword == "") {
     alert("Please fill all the fields");
   } else {
-    await fetch("http://localhost:3000/users")
+    await fetch("https://funny-lime-gopher.cyclic.app/users")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

@@ -3,7 +3,7 @@ const pageNo = document.getElementById("pageno");
 const filter = document.getElementById("filter");
 
 const appendRecipes = async () => {
-  let mainData = await fetch("http://localhost:3000/recipes")
+  let mainData = await fetch("https://funny-lime-gopher.cyclic.app/recipes")
     .then((res) => res.json())
     .then((data) => {
       return data;

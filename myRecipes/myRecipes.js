@@ -28,7 +28,7 @@ form.addEventListener("submit", async (e) => {
     ingredients,
     instructions,
   };
-  await fetch("http://localhost:3000/recipes", {
+  await fetch("https://funny-lime-gopher.cyclic.app/recipes", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),

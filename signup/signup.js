@@ -2,7 +2,6 @@ function signup() {
   let registerName = document.getElementById("registerName").value;
   let registerEmail = document.getElementById("registerEmail").value;
   let registerPassword1 = document.getElementById("registerPassword1").value;
-
   if (registerName == "" || registerEmail == "" || registerPassword1 == "") {
     alert("Please fill all the fields");
   } else {
@@ -11,7 +10,7 @@ function signup() {
       password: registerPassword1,
       name: registerName,
     };
-    fetch("http://localhost:3000/users", {
+    fetch("https://funny-lime-gopher.cyclic.app/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
