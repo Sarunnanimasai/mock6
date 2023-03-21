@@ -20,7 +20,7 @@ function signup() {
       .then((res) => res.json())
       .then((data) => {
         alert("Registered Successfully");
-        window.location.href = "../signin/signin.html ";
+        window.location.href = "../Signin/signin.html ";
       });
   }
 }
