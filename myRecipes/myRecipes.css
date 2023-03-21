@@ -1,0 +1,12 @@
+form {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
+  padding: 3%;
+  border: 1px solid black;
+}
+h1 {
+  text-align: center;
+}

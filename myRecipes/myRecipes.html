@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./myRecipes.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <a href="../index.html">Home Page</a>
+        <a href="../signup/signup.html">Sign Up</a>
+        <a href="../signin/signin.html">Sign In</a>
+        <a href="./myRecipes.html">My Recipes</a>
+      </div>
+      <h1>My Recipes</h1>
+      <form>
+        <label>Title</label>
+        <input id="title" type="text" placeholder="Enter Title" />
+        <label>Image</label>
+        <input id="img" type="text" placeholder="Enter Image URL" />
+        <label>Description</label>
+        <textarea
+          id="desc"
+          cols="30"
+          rows="10"
+          placeholder="Enter Description"
+        ></textarea>
+        <label>Category</label>
+        <select id="category">
+          <option value="Starter">Starter</option>
+          <option value="Main Course">Main Course</option>
+          <option value="Dessert">Dessert</option>
+        </select>
+        <label>Ingredients</label>
+        <input id="ingred" type="text" placeholder="Enter Ingredients" />
+        <label>Instructions</label>
+        <textarea id="instructions" cols="30" rows="10"></textarea>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script src="./myRecipes.js"></script>
+</html>
